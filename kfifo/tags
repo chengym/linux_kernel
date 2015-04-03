@@ -1,0 +1,36 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUFFER_SIZE	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	17;"	d	file:
+_APUE_H	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	2;"	d
+__ring_buffer_get	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t __ring_buffer_get(struct ring_buffer * ring_buf, void *buffer,$/;"	f
+__ring_buffer_len	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t __ring_buffer_len(const struct ring_buffer *ring_buf)$/;"	f
+__ring_buffer_put	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t __ring_buffer_put(struct ring_buffer * ring_buf, void *buffer,$/;"	f
+age	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^    uint32_t age;$/;"	m	struct:student_info	file:
+buffer	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^    void *buffer;               \/\/缓冲区$/;"	m	struct:ring_buffer
+consumer_proc	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^void *consumer_proc(void *arg)$/;"	f
+consumer_thread	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^int consumer_thread(void *arg)$/;"	f
+f_lock	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^    pthread_mutex_t *f_lock;    \/\/互斥锁$/;"	m	struct:ring_buffer
+get_student_info	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^student_info *get_student_info(time_t timer)$/;"	f
+in	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^    uint32_t in;                \/\/入口位置$/;"	m	struct:ring_buffer
+is_power_of_2	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	15;"	d	file:
+main	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^int main()$/;"	f
+min	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	17;"	d	file:
+out	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^    uint32_t out;               \/\/出口位置$/;"	m	struct:ring_buffer
+print_student_info	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^void print_student_info(const student_info * stu_info)$/;"	f
+producer_proc	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^void *producer_proc(void *arg)$/;"	f
+producer_thread	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^int producer_thread(void *arg)$/;"	f
+ring_buffer	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^struct ring_buffer$/;"	s
+ring_buffer_free	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^void ring_buffer_free(struct ring_buffer *ring_buf)$/;"	f
+ring_buffer_get	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t ring_buffer_get(struct ring_buffer * ring_buf, void *buffer,$/;"	f
+ring_buffer_init	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^struct ring_buffer *ring_buffer_init(void *buffer, uint32_t size,$/;"	f
+ring_buffer_len	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t ring_buffer_len(const struct ring_buffer * ring_buf)$/;"	f
+ring_buffer_put	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.c	/^uint32_t ring_buffer_put(struct ring_buffer *ring_buf, void *buffer,$/;"	f
+score	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^    uint32_t score;$/;"	m	struct:student_info	file:
+size	/home/chengym/wkspace/github/linux_kernel/kfifo/./ring_buffer.h	/^    uint32_t size;              \/\/大小$/;"	m	struct:ring_buffer
+stu_id	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^    uint64_t stu_id;$/;"	m	struct:student_info	file:
+student_info	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^typedef struct student_info$/;"	s	file:
+student_info	/home/chengym/wkspace/github/linux_kernel/kfifo/./main.c	/^} student_info;$/;"	t	typeref:struct:student_info	file:
